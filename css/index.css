@@ -21,7 +21,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    display: block;
 }
 .pic {
     background-image: url("../img/forest-background-banner.jpg");
@@ -31,29 +31,39 @@ body {
     width: 100%;
 }
 
-i {
-    text-align: center;
-    margin: 0 auto;
-    font-size: 10em;
-}
-
 .white {
     color: white;
     text-align: center;
 }
 
+i {
+    margin: 0 auto;
+    font-size: 10em;
+}
+
+i:hover {
+    color: black;
+}
+
+
+
 
 h1 {
     font-weight: 100;
-    font-size: 3em
-        
+    font-size: 3em     
 }
 
-.grid {
-    float: left;
-    text-align: center;
+.content {
+    width: 100%;
+    margin: 0 auto;
+    color: #536177;
 }
 
 .unit {
     margin: 2em;
+    text-align: center;
+}
+
+.bird {
+    float: left;
 }
