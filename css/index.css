@@ -11,8 +11,49 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.pic {
+    background-image: url("../img/forest-background-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0;
+    width: 100%;
+}
+
+i {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 10em;
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
+
+
+h1 {
+    font-weight: 100;
+    font-size: 3em
+        
+}
+
+.grid {
+    float: left;
+    text-align: center;
+}
+
+.unit {
+    margin: 2em;
 }
