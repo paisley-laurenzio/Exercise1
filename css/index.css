@@ -21,7 +21,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-    display: block;
+    display: inline-block;
+    width: 100%;
 }
 .pic {
     background-image: url("../img/forest-background-banner.jpg");
@@ -55,15 +56,11 @@ h1 {
 
 .content {
     width: 100%;
-    margin: 0 auto;
     color: #536177;
 }
 
 .unit {
-    margin: 2em;
+    padding: 2em;
     text-align: center;
 }
 
-.bird {
-    float: left;
-}
